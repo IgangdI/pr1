@@ -130,6 +130,6 @@ graph LR;
   untracked -- "git add" --> staged;
   staged    -- "git commit -m 'текст'"     --> tracked/commited;
   tracked/commited -- 'файл изменен' --> traked/modified;
-  tracked/mpdified -- "git add" --> staged;
+  tracked/modified -- "git add" --> staged;
 ```
 И так по кругу
